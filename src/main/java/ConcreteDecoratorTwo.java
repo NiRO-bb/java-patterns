@@ -1,3 +1,10 @@
+/**
+ * Concrete decorator that adds some formatting.
+ * <p>
+ * Extends the base Decorator class.
+ *
+ * @see Component
+ */
 public class ConcreteDecoratorTwo extends Decorator {
 
     private Component component;
