@@ -1,5 +1,7 @@
+package decorator;
+
 /**
- * Concrete implementation of Component interface.
+ * Concrete implementation of decorator.Component interface.
  * <p>
  * Represents the object that can be decorated with additional functionality.
  */

@@ -1,7 +1,9 @@
+package decorator;
+
 /**
  * Concrete decorator that adds some formatting.
  * <p>
- * Extends the base Decorator class.
+ * Extends the base decorator.Decorator class.
  *
  * @see Component
  */

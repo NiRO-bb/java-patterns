@@ -1,5 +1,7 @@
+package decorator;
+
 /**
- * Demonstrates Decorator design pattern work.
+ * Demonstrates decorator.Decorator design pattern work.
  * <p>
  * Contains {@code main} method that creates and uses different instance of decorators.
  *
@@ -14,9 +16,9 @@ public final class Starter {
      * Program entry point.
      * <p>
      * Creates and demonstrates three different component configurations:
-     * 1. ConcreteComponent without decorators
-     * 2. ConcreteComponent wrapped with ConcreteDecoratorOne
-     * 3. ConcreteComponent wrapped with ConcreteDecoratorTwo
+     * 1. decorator.ConcreteComponent without decorators
+     * 2. decorator.ConcreteComponent wrapped with decorator.ConcreteDecoratorOne
+     * 3. decorator.ConcreteComponent wrapped with decorator.ConcreteDecoratorTwo
      *
      * @param args command line arguments
      */

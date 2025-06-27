@@ -1,3 +1,5 @@
+package decorator;
+
 /**
  * Defines the basic interface for objects that can be decorated.
  */
