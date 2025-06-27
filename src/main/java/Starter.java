@@ -1,7 +1,20 @@
+/**
+ * Demonstrates the Builder design pattern work.
+ * <p>
+ * Contains {@code main} method that creates two different Product instances, then output their data.
+ */
 public final class Starter {
 
     private Starter() {}
 
+    /**
+     * Program entry point.
+     * <p>
+     * Creates two builders for Product class.
+     * Assembly Product instances and then output information about them.
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         Builder builder1 = new ProductBuilderOne(new Product());
         Builder builder2 = new ProductBuilderTwo(new Product());
