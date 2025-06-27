@@ -1,3 +1,6 @@
+/**
+ * Represent concrete observer.
+ */
 public class ObserverTwo implements Observer {
 
     @Override

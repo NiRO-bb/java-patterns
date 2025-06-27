@@ -1,14 +1,25 @@
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Represents Subject class.
+ */
 public class ConcreteSubject implements Subject {
 
     private List<Observer> observers;
 
+    /**
+     * Creates new ConcreteSubject instance.
+     * <p>
+     * Initializes observer list with LinkedList instance.
+     */
     public ConcreteSubject() {
         observers = new LinkedList<>();
     }
 
+    /**
+     * Calls some event, then notifies all attached observers.
+     */
     public void event() {
         System.out.println("Something happened!");
         notifyObservers();
