@@ -1,7 +1,9 @@
+package factory;
+
 /**
- * Concrete creator for ProductOne instances.
+ * Concrete creator for factoryMethod.ProductOne instances.
  * <p>
- * Implements the Creator interface to create ProductOne objects.
+ * Implements the factoryMethod.Creator interface to create factoryMethod.ProductOne objects.
  *
  * @see ProductOne
  */

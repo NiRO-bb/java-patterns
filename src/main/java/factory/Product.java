@@ -1,3 +1,5 @@
+package factory;
+
 /**
  * Represents product interface that defines basic behaviour of created objects.
  */

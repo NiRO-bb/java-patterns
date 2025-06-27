@@ -1,3 +1,5 @@
+package factory;
+
 /**
  * Demonstrates FabricMethod design pattern work.
  * <p>

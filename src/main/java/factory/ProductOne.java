@@ -1,7 +1,9 @@
+package factory;
+
 /**
- * Concrete implementation of the Product interface.
+ * Concrete implementation of the factoryMethod.Product interface.
  * <p>
- * This class provides specific functionality for Product type.
+ * This class provides specific functionality for factoryMethod.Product type.
  */
 public class ProductOne implements Product {
 
@@ -20,7 +22,7 @@ public class ProductOne implements Product {
 
     @Override
     public void printProductInfo() {
-        System.out.println(String.format("ProductOne instance has %s value.", value));
+        System.out.println(String.format("factoryMethod.ProductOne instance has %s value.", value));
     }
 
 }
