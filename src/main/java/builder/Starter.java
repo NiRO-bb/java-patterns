@@ -1,7 +1,9 @@
+package builder;
+
 /**
- * Demonstrates the Builder design pattern work.
+ * Demonstrates the builder.Builder design pattern work.
  * <p>
- * Contains {@code main} method that creates two different Product instances, then output their data.
+ * Contains {@code main} method that creates two different builder.Product instances, then output their data.
  */
 public final class Starter {
 
@@ -10,8 +12,8 @@ public final class Starter {
     /**
      * Program entry point.
      * <p>
-     * Creates two builders for Product class.
-     * Assembly Product instances and then output information about them.
+     * Creates two builders for builder.Product class.
+     * Assembly builder.Product instances and then output information about them.
      *
      * @param args command line arguments
      */

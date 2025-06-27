@@ -1,36 +1,38 @@
+package builder;
+
 /**
- * Represents concrete builder of Product class.
+ * Represents concrete builder of builder.Product class.
  *
  * @see Product
  */
-public class ProductBuilderOne implements Builder {
+public class ProductBuilderTwo implements Builder {
 
     private Product product;
 
     /**
-     * Creates new ProductBuilderOne instance.
+     * Creates new builder.ProductBuilderTwo instance.
      *
      * @param product instance that should be initialized
      */
-    public ProductBuilderOne(Product product) {
+    public ProductBuilderTwo(Product product) {
         this.product = product;
     }
 
     @Override
     public Builder setColor() {
-        product.setColor("Red");
+        product.setColor("Blue");
         return this;
     }
 
     @Override
     public Builder setShape() {
-        product.setShape("Circle");
+        product.setShape("Square");
         return this;
     }
 
     @Override
     public Builder setSize() {
-        product.setSize(5);
+        product.setSize(7);
         return this;
     }
 

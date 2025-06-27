@@ -1,3 +1,5 @@
+package builder;
+
 /**
  * Represents a class that should be initialized by different ways.
  * <p>
