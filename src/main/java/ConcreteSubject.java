@@ -3,7 +3,11 @@ import java.util.List;
 
 public class ConcreteSubject implements Subject {
 
-    private List<Observer> observers = new LinkedList<>();
+    private List<Observer> observers;
+
+    public ConcreteSubject() {
+        observers = new LinkedList<>();
+    }
 
     public void event() {
         System.out.println("Something happened!");
