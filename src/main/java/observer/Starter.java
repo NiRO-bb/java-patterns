@@ -1,7 +1,9 @@
+package observer;
+
 /**
- * Demonstrates the Observer design pattern work.
+ * Demonstrates the observer.Observer design pattern work.
  * <p>
- * Contains {@code main} method that creates Observer instances and then notify them with Subject instance.
+ * Contains {@code main} method that creates observer.Observer instances and then notify them with observer.Subject instance.
  *
  * @see Observer
  * @see Subject

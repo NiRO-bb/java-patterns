@@ -1,3 +1,5 @@
+package observer;
+
 /**
  * Represent concrete observer.
  */
@@ -21,7 +23,7 @@ public class ObserverOne implements Observer {
 
     @Override
     public String toString() {
-        return String.format("ObserverOne instance counts %d event(s).", eventCounter);
+        return String.format("observer.ObserverOne instance counts %d event(s).", eventCounter);
     }
 
 }

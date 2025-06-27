@@ -1,15 +1,17 @@
+package observer;
+
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Represents Subject class.
+ * Represents observer.Subject class.
  */
 public class ConcreteSubject implements Subject {
 
     private List<Observer> observers;
 
     /**
-     * Creates new ConcreteSubject instance.
+     * Creates new observer.ConcreteSubject instance.
      * <p>
      * Initializes observer list with LinkedList instance.
      */
