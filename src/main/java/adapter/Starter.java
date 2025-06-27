@@ -1,7 +1,9 @@
+package adapter;
+
 /**
- * Demonstrates Adapter design pattern work.
+ * Demonstrates adapter.Adapter design pattern work.
  * <p>
- * Contains {@code main} method that creates and uses Adapter instance.
+ * Contains {@code main} method that creates and uses adapter.Adapter instance.
  *
  * @see Adapter
  */
@@ -12,8 +14,8 @@ public final class Starter {
     /**
      * Program entry point.
      * <p>
-     * Creates an Adaptee instance, wraps it with a ConcreteAdapter, and demonstrates
-     * the adapted functionality by using Adaptee methods using the Adapter instance.
+     * Creates an adapter.Adaptee instance, wraps it with a adapter.ConcreteAdapter, and demonstrates
+     * the adapted functionality by using adapter.Adaptee methods using the adapter.Adapter instance.
      *
      * @param args command line arguments
      */

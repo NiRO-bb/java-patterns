@@ -1,5 +1,7 @@
+package adapter;
+
 /**
- * Represents the class that must be used by Client(Starter).
+ * Represents the class that must be used by Client(adapter.Starter).
  * <p>
  * Contains few methods that can't be accessed by default.
  */
@@ -17,9 +19,9 @@ public class Adaptee {
     }
 
     /**
-     * Creates Adaptee with specified status.
+     * Creates adapter.Adaptee with specified status.
      * <p>
-     * Allows initialization of the Adaptee with a custom status value.
+     * Allows initialization of the adapter.Adaptee with a custom status value.
      * The status can be any string representing the current state.
      *
      * @param status the initial status value
@@ -31,7 +33,7 @@ public class Adaptee {
     /**
      * Gets the current status value.
      * <p>
-     * Returns the string representation of the Adaptee's current state.
+     * Returns the string representation of the adapter.Adaptee's current state.
      *
      * @return current status string
      */
@@ -43,7 +45,7 @@ public class Adaptee {
      * Prints the current status.
      */
     public void printStatusOfAdapteeClass() {
-        System.out.println(String.format("Adaptee instance status is %s.", status));
+        System.out.println(String.format("adapter.Adaptee instance status is %s.", status));
     }
 
 }

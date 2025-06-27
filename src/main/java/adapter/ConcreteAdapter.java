@@ -1,5 +1,7 @@
+package adapter;
+
 /**
- * Adapter implementation that bridges the Adaptee interface to the target Adapter interface.
+ * adapter.Adapter implementation that bridges the adapter.Adaptee interface to the target adapter.Adapter interface.
  *
  * @see Adaptee
  */
@@ -8,9 +10,9 @@ public class ConcreteAdapter implements Adapter {
     private Adaptee adaptee;
 
     /**
-     * Creates a new ConcreteAdapter wrapping the specified Adaptee.
+     * Creates a new adapter.ConcreteAdapter wrapping the specified adapter.Adaptee.
      *
-     * @param adaptee the Adaptee instance to wrap
+     * @param adaptee the adapter.Adaptee instance to wrap
      */
     public ConcreteAdapter(Adaptee adaptee) {
         this.adaptee = adaptee;

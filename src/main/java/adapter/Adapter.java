@@ -1,3 +1,5 @@
+package adapter;
+
 /**
  * Target interface defining the expected client operations.
  * <p>
