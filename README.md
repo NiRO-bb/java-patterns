@@ -23,6 +23,13 @@ mvn clean install
 
 # Usage
 
+## Adapter pattern
+
+Choose "src/main/java/adapter" directory, then use Starter.java class.
+```shell
+cd src/main/java/adapter
+```
+
 ## Factory Method pattern
 
 Choose "src/main/java/factory" directory, then use Starter.java class.
