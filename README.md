@@ -23,6 +23,13 @@ mvn clean install
 
 # Usage
 
+## Observer pattern
+
+Choose "src/main/java/observer" directory, then use Starter.java class.
+```shell
+cd src/main/java/observer
+```
+
 ## Builder pattern
 
 Choose "src/main/java/builder" directory, then use Starter.java class.
