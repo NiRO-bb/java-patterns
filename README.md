@@ -23,6 +23,13 @@ mvn clean install
 
 # Usage
 
+## Builder pattern
+
+Choose "src/main/java/builder" directory, then use Starter.java class.
+```shell
+cd src/main/java/builder
+```
+
 ## Decorator pattern
 
 Choose "src/main/java/decorator" directory, then use Starter.java class.
