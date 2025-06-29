@@ -67,7 +67,7 @@ cd src/main/java/singleton
 
 # Contributing
 
-<a href="https://github.com/NiRO-bb/java-patterns/graphs/contributors"/ >
+<a href="https://github.com/NiRO-bb/java-patterns/graphs/contributors/" >
 
 # License
 
