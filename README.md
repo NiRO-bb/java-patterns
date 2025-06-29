@@ -30,6 +30,13 @@ Choose "src/main/java/factory" directory, then use Starter.java class.
 cd src/main/java/factory
 ```
 
+## Singleton pattern
+
+Choose "src/main/java/singleton" directory, then use Starter.java class.
+```shell
+cd src/main/java/singleton
+```
+
 # Contributing
 
 <a href="https://github.com/NiRO-bb/java-patterns/graphs/contributors"/ >
