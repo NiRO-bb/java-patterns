@@ -23,6 +23,13 @@ mvn clean install
 
 # Usage
 
+## Factory Method pattern
+
+Choose "src/main/java/factory" directory, then use Starter.java class.
+```shell
+cd src/main/java/factory
+```
+
 ## Singleton pattern
 
 Choose "src/main/java/singleton" directory, then use Starter.java class.
