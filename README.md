@@ -23,6 +23,13 @@ mvn clean install
 
 # Usage
 
+## Decorator pattern
+
+Choose "src/main/java/decorator" directory, then use Starter.java class.
+```shell
+cd src/main/java/decorator
+```
+
 ## Adapter pattern
 
 Choose "src/main/java/adapter" directory, then use Starter.java class.
